@@ -1,0 +1,85 @@
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  border-right: 1px;
+  border-right-color: rgb(202, 202, 202);
+  border-right-style: solid;
+  width: 225px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin-left: 18px;
+  z-index: 100;
+}
+.insta-logo img{
+  width: 105px;
+  margin-top: 39px;margin-bottom: 49px;
+}
+.nav-icons{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.nav-icons ul {
+  margin: 0;
+  padding: 0;
+}
+.nav-icons-pic,
+.nav-pic{
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  width: 180px;
+  padding: 13px 10px;
+  border-radius: 8px;
+  transition: background-color 0.2s, transform 0s;
+}
+.nav-icons-pic:hover,
+.nav-pic:hover{
+  background-color: rgb(227, 227, 227);
+  transform: scale(1.05);
+}
+.nav-icons-pic img{
+  width: 22px;
+  margin-right: 15px;
+}
+.nav-pic img{
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-right: 15px;
+}
+.nav-icons-pic div,
+.nav-pic div{
+  font-size: 14px;
+  font-weight: 500;
+}
+.bottom{
+  display: flex;
+  flex-direction: column;
+  flex-direction: space-between;
+  margin-top: 60px;
+}
+
+.bottom-icons{
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  padding: 13px 10px;
+  border-radius: 8px;
+  transition: background-color 0.2s, transform 0s;
+}
+.bottom-icons:hover{
+  background-color: rgb(227, 227, 227);
+  transform: scale(1.05);
+}
+.bottom-icons img{
+  width: 22px;
+  margin-right: 15px;
+}
+.bottom-icons div{
+  font-size: 16px;
+  font-weight: 500;
+}
